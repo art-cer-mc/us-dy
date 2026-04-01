@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="//cdn.dynamicyield.com">
+<link rel="preconnect" href="//st.dynamicyield.com">
+<link rel="preconnect" href="//rcom.dynamicyield.com">
+    <script type="text/javascript">
+		    const setOptanonCookie = (val = true) => {
+	DY.userActiveConsent = {
+		accepted: val
+	};
+	DYO.ActiveConsent.updateConsentAcceptedStatus(val);
+
+	try {
+		window.localStorage.setItem("userActiveConsent", val);
+	}
+	catch (e) {
+		console.error("We couldn't save the value of the consent"); 
+	}
+}; 
+        window.DY = window.DY || {};
+        DY.recommendationContext = {type: 'HOMEPAGE'};
+    </script>
+<script type="text/javascript" src="//cdn.dynamicyield.com/api/8792602/api_dynamic.js"></script>
+<script type="text/javascript" src="//cdn.dynamicyield.com/api/8792602/api_static.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Yield Support EU Testing Site</title>
+</head>
+<body>
+    <!--<a href="categories/categories.html">Go to Categories</a> -->
+    <div id="helptext">Use dy# to choose a selector for testing!</div>
+    <div class="dy-slot" id="dy1">DY1</div>
+    <div class="dy-slot" id="dy2">DY2</div>
+    <div class="dy-slot" id="dy3">DY3</div>
+    <div class="dy-slot" id="dy4">DY4</div>
+    <div class="dy-slot" id="dy5">DY5</div>
+    <div class="dy-slot" id="dy6">DY6</div>
+    <div class="dy-slot" id="dy7">DY7</div>
+    <div class="dy-slot" id="dy8">DY8</div>
+    <div class="dy-slot" id="dy9">DY9</div>
+    <div class="dy-slot" id="dy10">DY10</div>
+    <div class="dy-slot" id="dy11">DY11</div>
+    <div class="dy-slot" id="dy12">DY12</div>
+    <div class="dy-slot" id="dy13">DY13</div>
+    <div class="dy-slot" id="dy14">DY14</div>
+    <div class="dy-slot" id="dy15">DY15</div>
+    
+</body>
+</html>
